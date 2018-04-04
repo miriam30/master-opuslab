@@ -1,1 +1,48 @@
+:root {
+  --sizecol: 15rem;
+  --sizegap: .75rem;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 80%;
+  background: #ddd;
+  line-height: 1.2;
+  padding: 1.5rem;
+  counter-reset: section;
+}
+main {
+  -webkit-columns: var(--sizecol);
+  columns: var(--sizecol);
+  -webkit-column-gap:var(--sizegap);
+  column-gap: var(--sizegap);
+}
+article {
+  -webkit-column-break-inside: avoid;
+  break-inside: avoid-column;
+  margin-bottom: var(--sizegap);
+  overflow: hidden;
+  padding:0.75rem;
+  border-radius: 4px;
+  background: white;
+  display: inline-block;
+  vertical-align: top;
+  box-shadow:1px 1px 3px rgba(0,0,0,0.2);
+}
+
+/*article h3::before {
+  counter-increment: section;
+  content: counter(section) ": ";
+  display:inline-block;
+  margin-right:0.25rem;
+}*/
+
+img {
+  width: 100%;
+}
 /* main css */
