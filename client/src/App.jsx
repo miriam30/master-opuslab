@@ -12,6 +12,7 @@ const App = () => {
       <h1 > Hello world! </h1>
       <MainVideo />
       <Contact />
+      <Footer />
     </div>
 )
 }
