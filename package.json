@@ -22,11 +22,15 @@
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
     "express": "^4.16.3",
+    "install": "^0.11.0",
     "jquery": "^3.3.1",
+    "material-ui": "^1.0.0-beta.41",
     "mongoose": "^5.0.12",
     "morgan": "^1.9.0",
     "nodemon": "^1.17.3",
+    "npm": "^5.8.0",
     "react": "^16.3.0",
+    "react-router-dom": "^4.2.2",
     "react-dom": "^16.3.0"
   },
   "devDependencies": {

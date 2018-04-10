@@ -7,8 +7,8 @@
 6 silly lifecycle opus@1.0.0~prereact-dev: no script for prereact-dev, continuing
 7 info lifecycle opus@1.0.0~react-dev: opus@1.0.0
 8 verbose lifecycle opus@1.0.0~react-dev: unsafe-perm in lifecycle true
-9 verbose lifecycle opus@1.0.0~react-dev: PATH: /usr/share/npm/bin/node-gyp-bin:/home/miriam/Desktop/master-opuslab/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-10 verbose lifecycle opus@1.0.0~react-dev: CWD: /home/miriam/Desktop/master-opuslab
+9 verbose lifecycle opus@1.0.0~react-dev: PATH: /usr/share/npm/bin/node-gyp-bin:/home/miriam/Desktop/project/master-opuslab/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+10 verbose lifecycle opus@1.0.0~react-dev: CWD: /home/miriam/Desktop/project/master-opuslab
 11 silly lifecycle opus@1.0.0~react-dev: Args: [ '-c', 'webpack -d --watch' ]
 12 silly lifecycle opus@1.0.0~react-dev: Returned: code: 137  signal: null
 13 info lifecycle opus@1.0.0~react-dev: Failed to exec react-dev script
@@ -23,7 +23,7 @@
 14 verbose stack     at maybeClose (internal/child_process.js:920:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
 15 verbose pkgid opus@1.0.0
-16 verbose cwd /home/miriam/Desktop/master-opuslab
+16 verbose cwd /home/miriam/Desktop/project/master-opuslab
 17 error Linux 4.13.0-38-generic
 18 error argv "/usr/bin/node" "/usr/bin/npm" "run" "react-dev"
 19 error node v6.11.4

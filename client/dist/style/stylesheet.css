@@ -1,5 +1,42 @@
-
-
+/*Header bar*/
+#appBar{
+  background-color: #B60027;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#Home {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #ffff;
+  padding-left: 15px;
+  padding-right: 125px;
+  text-align: right;
+}
+#About{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #fff;
+  text-align: right;
+}
+#proyectos{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #fff;
+  text-align: right;
+}
+#Workshop{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 30px;
+  color: #fff;
+  text-align: right;
+}
+#Contactus{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #fff;
+  text-align: right;
+}
 /*Contact form*/
 h1, h2, h3 {
   text-align: center;
