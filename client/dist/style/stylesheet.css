@@ -4,6 +4,9 @@
   padding-top: 0px;
   padding-bottom: 0px;
 }
+#appBar:hover {
+    background-image: linear-gradient(to right bottom, #b60027, #97142e, #771e30, #56212d, #362126);
+}
 #Home {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -18,12 +21,7 @@
   color: #fff;
   text-align: right;
 }
-#proyectos{
-  padding-top: 0px;
-  padding-bottom: 0px;
-  color: #fff;
-  text-align: right;
-}
+
 #Workshop{
   padding-top: 0px;
   padding-bottom: 0px;
@@ -36,6 +34,41 @@
   padding-bottom: 0px;
   color: #fff;
   text-align: right;
+}
+/* Photo album*/
+.photo {}
+
+.photo ul {}
+
+.photo ul li {
+  display: block;
+  float: left;
+  padding: 5px;
+}
+
+.photo ul li div {
+  display: none;
+}
+
+.photo ul li div:target {
+  display: inline;
+  align-items: center;
+  text-align:center;
+  align-content: center;
+  background-color: grey
+}
+
+/*DropDown Proyectos*/
+#proyectos{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #fff;
+  text-align: right;
+}
+#team{
+  height: 400px;
+  width: 100%;
+  padding-top: 20px;
 }
 /*Contact form*/
 h1, h2, h3 {

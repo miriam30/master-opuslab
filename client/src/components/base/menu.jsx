@@ -4,7 +4,7 @@ import Toolbar from 'material-ui/Toolbar';
 import { Link } from 'react-dom' /* set to actual react router and add links*/
 import Button from 'material-ui/Button';
 
-
+/*DropDown menu component*/
 import Proyectos from './DropDown.jsx'
 
 

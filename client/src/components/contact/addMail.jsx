@@ -1,14 +1,16 @@
 import React from 'react';
 
-class ContactForm extends React.Component {
+/*Style*/
+import TextField from 'material-ui/TextField';
+
+class AddMail extends React.Component {
   constructor(props){
     super(props)
-
     this.state={
       name: '',
       companyName: '',
       description: '',
-      dateDue: '',
+      dueDate: '',
       phone: '',
       email: ''
     }
@@ -37,7 +39,7 @@ class ContactForm extends React.Component {
   }
   updateDueDate(e){
     this.setState({
-      dateDue: e.target.value
+      dueDate: e.target.value
     })
   }
   updatePhone(e){
@@ -55,7 +57,7 @@ class ContactForm extends React.Component {
         name: '',
         companyName: '',
         description: '',
-        dateDue: '',
+        dueDate: '',
         phone: '',
         email: ''
       })
@@ -71,7 +73,7 @@ class ContactForm extends React.Component {
       parte de <input onChange={this.updateCompanyName} value={this.state.companyName} placeholder="Nombre de Empresa"/>,
       <br /> estoy buscando alguien que me ayude con un proyecto:
       <br /> <textarea onChange={this.updateDescription} value={this.state.description} name="Description" placeholder="Pequeña descripcion del trabajo"/>.
-      <br /> Este proyecto tengo un objetivo de completarlo en o cerca de <input onChange={this.updateDueDate} value={this.state.dateDue} placeholder='dd/mm/yy' />.
+      <br /> Este proyecto tengo un objetivo de completarlo en o cerca de <input onChange={this.updateDueDate} value={this.state.dueDate} placeholder='dd/mm/yy' />.
       <br /> Pueden contactarme por telefono: <input onChange={this.updatePhone} value={this.state.phone} placeholder="Numero de telefono" />
       o al correo electronico: <br /><input onChange={this.updateEmail} value={this.state.email} placeholder="Correo electronico"/> para hablar mas.
       <br />
@@ -85,4 +87,4 @@ class ContactForm extends React.Component {
   }
 }
 
-export default ContactForm
+export default AddMail

@@ -9,6 +9,9 @@
 	padding: 10px 10px;
 	margin-top: 80px;
 }
+.footer-distributed:hover {
+    background-image: linear-gradient(to right bottom, #b60027, #97142e, #771e30, #56212d, #362126);
+	}
 
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
